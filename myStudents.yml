@@ -1,0 +1,43 @@
+---
+- myStudents: 
+  - name: anil
+    age: 30
+    address: 
+      - door: 123
+      - street: abc street
+      - city: hyderabad
+      - state: telangana   
+      - pincode: 500081    
+    courses:
+     - aws
+     - azure   
+     - devops
+     - python 
+  
+  - name: sunil
+    age: 30
+    address:
+        - door: 123
+        - street: abc street  
+        - city: hyderabad
+        - state: telangana
+        - pincode: 500081
+    courses:
+    - aws
+    - azure
+    - devops
+    - python
+
+  - name: venil
+    age: 30
+    address: 
+      - door: 123
+      - street: abc street
+      - city: hyderabad
+      - state: telangana
+      - pincode: 500081
+    courses:
+    - aws
+    - azure 
+    - devops
+    - python
