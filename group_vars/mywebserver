@@ -2,3 +2,5 @@
 myvar01: value
 webpackonuubntu: apache2
 webpackonredhat: httpd
+myjavapackoubuntu: openjdk-21-jdk
+myjavapackonredhat: java-21-amazon-corretto-devel

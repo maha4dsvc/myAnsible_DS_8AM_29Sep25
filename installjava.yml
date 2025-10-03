@@ -1,0 +1,15 @@
+---
+- hots: myhosts
+  become: yes
+  tasks:
+  - name: install java on ubutu
+    apt: 
+      name: "{{myjavapackoubuntu}}"
+      state: present
+    when: ansible_os_family=="Debian"
+
+  - name: install java on redhat 
+    dnf:
+      name: "{{myjavapackonredhats}}"
+      state: present
+    when: ansible_os_family=="RedHat"
