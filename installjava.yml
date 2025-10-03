@@ -1,5 +1,5 @@
 ---
-- hots: myhosts
+- hots: mywebserver
   become: yes
   tasks:
   - name: install java on ubutu
