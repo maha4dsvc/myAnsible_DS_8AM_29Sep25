@@ -17,3 +17,10 @@
 
 [myAmazonserver]
 172.31.17.125
+
+
+[mywebserver:vars]
+myvar01= value
+webpackonuubntu= apache2222
+webpackonredhat= httpd
+
