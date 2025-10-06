@@ -1,0 +1,14 @@
+---
+- hosts: 172.31.43.141
+  become: yes
+  vars:
+     var01: git
+     var02: tree
+     var03: wget 
+
+  tasts:
+  - name:  i want to user var01 
+    debug: 
+      msg: "{{var01}}"
+
+  
