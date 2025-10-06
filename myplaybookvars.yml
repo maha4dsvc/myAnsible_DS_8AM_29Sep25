@@ -2,11 +2,11 @@
 - hosts: 172.31.43.141
   become: yes
   vars:
-     var01: git
-     var02: tree
-     var03: wget 
+    var01: git
+    var02: tree
+    var03: wget 
 
-  tasts:
+  tasks:
   - name:  i want to user var01 
     debug: 
       msg: "{{var01}}"
