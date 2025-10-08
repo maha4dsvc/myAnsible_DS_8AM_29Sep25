@@ -8,3 +8,12 @@
        src: mytestfile
        dest: /home/maha/mytestfile
 
+  - name: install apache2 
+    apt: 
+      name: apache2
+      state: present 
+    
+  
+
+    
+
