@@ -7,11 +7,13 @@
     copy:
        src: mytestfile
        dest: /home/maha/mytestfile
+    notify: startwebserver
 
   - name: install apache2 
     apt: 
       name: apache2
       state: present 
+    notify: startwebserver
 
   - name: copy myindex file into node side 
     template:
